@@ -1,0 +1,84 @@
+element {
+  background-image: -webkit-image-set(active-state);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+
+}
+element::after {
+  image-rendering: auto;
+  display: block;
+  width: 100%;
+  height: 100vh;
+}
+element {
+  background-image: 
+  linear-gradient( to bottom,
+  rgba(255,255,255,0),
+  rgba (255,255,255,1)),
+  url('mobile-design.jpg');
+}
+body {
+        background-color: #f2f2f2;
+        font-family: Arial, sans-serif;}
+        body {
+            /* Properties are highlighted in blue */
+            background-color: #f2f2f2; /* Values are highlighted in purple */
+            font-family: Arial, sans-serif; /* Semicolons are highlighted in red */
+          }
+          h1 {
+            /* Pseudo-classes are highlighted in yellow */
+            color: blue; /* Colors are highlighted in orange */
+            font-size: 36px; /* Units are highlighted in gray */
+          }
+          
+          /* CSS Selectors are highlighted in pink */
+          #header {
+            background-color: gold;
+            color: yellowgreen;
+            padding: 20px;
+            text-align: right;
+          }
+          nav ul {
+            list-style: none;
+            margin: auto;
+            padding: 0%;
+            display: flex;
+            justify-content: space-between;
+        }
+          nav li {
+            margin-right: auto;
+          }
+          nav a {
+            color: blue;
+            text-decoration: none;
+          }
+          section {
+            padding: 2em;
+            text-align: right;
+        }
+            image {color: chartreuse;
+                color: aquamarine;}
+
+
+        
+          nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul ul li {
+    margin-bottom: 10px;
+}
+
+nav ul ul li a {
+    color: #fff;
+    text-decoration: none;
+}
